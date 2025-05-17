@@ -10,8 +10,10 @@ class Formulario:
             self.base.title("Formulario")
             self.base.geometry("1300x400")
 
+
             groupBox1 = tk.LabelFrame(self.base, text="Datos del personal", padx=15, pady=15)
             groupBox1.grid(row=0, column=0, padx=10, pady=10)
+            
 
             labelid = tk.Label(groupBox1, text="Id:", width=10,font=("Arial", 12)).grid(row=0, column=0,)
             texBoxid = tk.Entry(groupBox1, width=20, font=("Arial", 12))

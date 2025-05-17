@@ -48,16 +48,16 @@ class trabajador:
             img4 = ImageTk.PhotoImage(Image.open(r"C:\Users\sergi\OneDrive - UNIVERSIDAD DE CUNDINAMARCA\Escritorio\P_minas\Imagenes\bota-de-senderismo.png").resize((50, 50)))
 
             # Crear botones con imágenes
-            btn1 = Button(groupBoxButtons, image=img1, text="Botón 1", compound="top", width=80, height=80)
+            btn1 = Button(groupBoxButtons, image=img1, text="Pico", compound="top", width=80, height=80)
             btn1.grid(row=0, column=0, padx=10, pady=10)
 
-            btn2 = Button(groupBoxButtons, image=img2, text="Botón 2", compound="top", width=80, height=80)
+            btn2 = Button(groupBoxButtons, image=img2, text="Linterna", compound="top", width=80, height=80)
             btn2.grid(row=0, column=1, padx=10, pady=10)
 
-            btn3 = Button(groupBoxButtons, image=img3, text="Botón 3", compound="top", width=80, height=80)
+            btn3 = Button(groupBoxButtons, image=img3, text="Casco", compound="top", width=80, height=80)
             btn3.grid(row=0, column=2, padx=10, pady=10)
 
-            btn4 = Button(groupBoxButtons, image=img4, text="Botón 4", compound="top", width=80, height=80)
+            btn4 = Button(groupBoxButtons, image=img4, text="Botas", compound="top", width=80, height=80)
             btn4.grid(row=0, column=3, padx=10, pady=10)
 
             self.img1 = img1
